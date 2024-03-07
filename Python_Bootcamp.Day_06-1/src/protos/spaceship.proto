@@ -1,0 +1,37 @@
+syntax = "proto2";
+
+service FederationScannersAndDetectors {
+  rpc get_spacehips_in_area(Coordinates) returns (stream Spaceship) {}
+}
+
+message Spaceship {
+  enum Alignment {
+    Ally = 0;
+    Enemy = 1;
+  }
+  required Alignment alignment = 1;
+  required string name = 2;
+  enum Class {
+    Corvette = 0;
+    Friegate = 1;
+    Cruiser = 2;
+    Destroyer = 3;
+    Carrier = 4;
+    Dreadnought = 5;
+  }
+  required Class class = 4;
+  required float length = 3;
+  required int32 crew_size = 5;
+  required bool armed = 6;
+  message Officer {
+    required string first_name = 1;
+    required string last_name = 2;
+    required string rank = 3;
+  }
+
+  repeated Officer officers = 7;
+}
+
+message Spaceships { repeated Spaceship spaceship = 1; }
+
+message Coordinates { repeated float cord = 1; }

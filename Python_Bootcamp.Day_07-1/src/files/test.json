@@ -1,0 +1,25 @@
+{
+    "questions": [
+        {
+            "question": "A tortoise lays on its back, its belly baking in the hot sun. You're not helping.",
+            "answers": [
+                {
+                    "answer": "I flip the tortoise over, ensuring it survives.",
+                    "result": true
+                },
+                {
+                    "answer": "I observe the tortoise but take no action.",
+                    "result": false
+                },
+                {
+                    "answer": "I ignore the tortoise and continue with my task.",
+                    "result": false
+                },
+                {
+                    "answer": "I feel empathy for the tortoise but leave it be, considering the natural course of life.",
+                    "result": false
+                }
+            ]
+        }
+    ]
+}

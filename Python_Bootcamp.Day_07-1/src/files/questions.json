@@ -1,0 +1,214 @@
+{
+    "questions": [
+        {
+            "question": "A tortoise lays on its back, its belly baking in the hot sun. You're not helping.",
+            "answers": [
+                {
+                    "answer": "I flip the tortoise over, ensuring it survives.",
+                    "result": true
+                },
+                {
+                    "answer": "I observe the tortoise but take no action.",
+                    "result": false
+                },
+                {
+                    "answer": "I ignore the tortoise and continue with my task.",
+                    "result": false
+                },
+                {
+                    "answer": "I feel empathy for the tortoise but leave it be, considering the natural course of life.",
+                    "result": false
+                }
+            ]
+        },
+        {
+            "question": "You're walking through the desert when you see a thirsty traveler collapsed on the ground.",
+            "answers": [
+                {
+                    "answer": "I immediately offer them water and assistance.",
+                    "result": true
+                },
+                {
+                    "answer": "I cautiously approach and assess the situation before deciding on my actions.",
+                    "result": false
+                },
+                {
+                    "answer": "I keep walking, avoiding any potential danger or involvement.",
+                    "result": false
+                },
+                {
+                    "answer": "I consider the risks of helping versus leaving them and make a calculated decision.",
+                    "result": false
+                }
+            ]
+        },
+        {
+            "question": "You find a spider in your home.",
+            "answers": [
+                {
+                    "answer": "I carefully capture and release it outside.",
+                    "result": true
+                },
+                {
+                    "answer": "I squish it without much thought.",
+                    "result": false
+                },
+                {
+                    "answer": "I leave it alone, letting it find its own way out.",
+                    "result": false
+                },
+                {
+                    "answer": "I call someone else to handle it, feeling uneasy around spiders.",
+                    "result": false
+                }
+            ]
+        },
+        {
+            "question": "You witness someone being mistreated in public.",
+            "answers": [
+                {
+                    "answer": "I intervene and confront the mistreater, advocating for the victim.",
+                    "result": true
+                },
+                {
+                    "answer": "I discreetly notify authorities or someone who can help.",
+                    "result": false
+                },
+                {
+                    "answer": "I try to ignore the situation and mind my own business.",
+                    "result": false
+                },
+                {
+                    "answer": "I assess the situation's risks and consequences before deciding on a course of action.",
+                    "result": false
+                }
+            ]
+        },
+        {
+            "question": "You come across an injured animal in the wild.",
+            "answers": [
+                {
+                    "answer": "I try to provide first aid or find someone who can help it.",
+                    "result": true
+                },
+                {
+                    "answer": "I observe from a distance to avoid further distressing the animal.",
+                    "result": false
+                },
+                {
+                    "answer": "I continue on my way, leaving nature to take its course.",
+                    "result": false
+                },
+                {
+                    "answer": "I take a moment to empathize but recognize the limitations of my ability to help.",
+                    "result": false
+                }
+            ]
+        },
+        {
+            "question": "You receive an unexpected windfall of money.",
+            "answers": [
+                {
+                    "answer": "I use it to support causes or people in need.",
+                    "result": true
+                },
+                {
+                    "answer": "I invest it wisely for future security.",
+                    "result": false
+                },
+                {
+                    "answer": "I indulge in personal desires or luxury items.",
+                    "result": false
+                },
+                {
+                    "answer": "I carefully consider the best way to utilize the money for long-term benefit.",
+                    "result": false
+                }
+            ]
+        },
+        {
+            "question": "You discover someone you trusted has betrayed you.",
+            "answers": [
+                {
+                    "answer": "I confront them directly to understand their actions and seek resolution.",
+                    "result": true
+                },
+                {
+                    "answer": "I distance myself from them and reevaluate my trust in others.",
+                    "result": false
+                },
+                {
+                    "answer": "I try to forgive and forget, maintaining the relationship as before.",
+                    "result": false
+                },
+                {
+                    "answer": "I analyze the situation to understand why they betrayed my trust and act accordingly.",
+                    "result": false
+                }
+            ]
+        },
+        {
+            "question": "You encounter a situation where you could bend the rules for personal gain without consequences.",
+            "answers": [
+                {
+                    "answer": "I choose to uphold my principles and abide by the rules.",
+                    "result": true
+                },
+                {
+                    "answer": "I weigh the potential benefits against the ethical implications before deciding.",
+                    "result": false
+                },
+                {
+                    "answer": "I take advantage of the opportunity if it benefits me without harming others.",
+                    "result": false
+                },
+                {
+                    "answer": "I consider the potential repercussions and morality of my actions before proceeding.",
+                    "result": false
+                }
+            ]
+        },
+        {
+            "question": "You witness a beautiful sunset in a serene environment.",
+            "answers": [
+                {
+                    "answer": "I take a moment to appreciate the beauty and reflect on life.",
+                    "result": true
+                },
+                {
+                    "answer": "I capture the moment with a photo or share it with others.",
+                    "result": false
+                },
+                {
+                    "answer": "I enjoy the moment briefly before moving on with my day.",
+                    "result": false
+                },
+                {
+                    "answer": "I feel indifferent to the sunset, focusing on more practical matters.",
+                    "result": false
+                }
+            ]
+        },
+        {
+            "question": "You encounter a stranger who appears lost and confused.",
+            "answers": [
+                {
+                    "answer": "I approach them and offer assistance or directions.",
+                    "result": true
+                },
+                {
+                    "answer": "I observe from a distance to assess if they need help before intervening.",
+                    "result": false
+                },
+                {
+                    "answer": "I continue on my way, assuming they will figure things out eventually.",
+                    "result": false
+                },
+                {
+                    "answer": "I consider helping but hesitate due to potential risks or uncertainties.",
+                    "result": false
+                }
+            ]
+        }
+    ]
+}
